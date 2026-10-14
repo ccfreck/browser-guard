@@ -34,6 +34,10 @@ flowchart LR
 
 The content script observes prompt submissions on ChatGPT, runs local checks, and either allows submission or presents a warning. No prompt text needs to leave the browser for detection.
 
-## Development
+## Try it locally
 
-The repository is currently documentation-only. Extension implementation and local development instructions will be added with the first code change.
+1. Open `chrome://extensions` in Chrome and enable **Developer mode**.
+2. Select **Load unpacked** and choose this repository directory.
+3. Open ChatGPT and try a prompt containing a test pattern such as `SSN 123-45-6789`. Choose **Go back** or **Continue anyway** in the warning.
+
+Run detector tests with `npm test` (Node.js required).
