@@ -1,5 +1,7 @@
 # Browser Guard
 
+> **TL;DR:** Browser Guard is a Chrome extension that checks ChatGPT prompts on-device for likely sensitive information and warns you before submission. Your prompt text is not sent to Browser Guard servers.
+
 Browser Guard is a Chrome extension that helps prevent sensitive information from being shared with public AI tools. Its first version targets ChatGPT and warns before a prompt containing likely sensitive information is submitted.
 
 ## MVP scope
