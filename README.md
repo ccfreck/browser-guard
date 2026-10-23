@@ -17,7 +17,7 @@ Detection is best-effort: it may miss sensitive information or flag harmless tex
 ## Proposed architecture
 
 ```mermaid
-flowchart LR
+flowchart TD
     U[User] -->|writes prompt| DOM[ChatGPT page]
     DOM -->|submit attempt and prompt text| CS[Content script]
     CS --> DET[Local sensitive-data detector]
